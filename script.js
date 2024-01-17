@@ -10,3 +10,8 @@ function cleanInputString(str) {
     const regex = /[+-\s]/g;
     return str.replace(regex, '');
   }
+  // Step 3: Function to check if input string has invalid exponential notation
+function isInvalidInput(str) {
+    const regex = /\d+e\d+/i;
+    return str.match(regex);
+  }

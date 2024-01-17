@@ -104,3 +104,6 @@ addEntryButton.addEventListener("click", addEntry);
 
 // Step 9: Event listener for the form submission to calculate calories
 calorieCounter.addEventListener("submit", calculateCalories);
+
+// Step 10: Event listener for the "Clear" button to clear the form
+clearButton.addEventListener('click', clearForm);

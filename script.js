@@ -101,3 +101,6 @@ function clearForm() {
   }
   // Step 8: Event listener for the "Add Entry" button
 addEntryButton.addEventListener("click", addEntry);
+
+// Step 9: Event listener for the form submission to calculate calories
+calorieCounter.addEventListener("submit", calculateCalories);

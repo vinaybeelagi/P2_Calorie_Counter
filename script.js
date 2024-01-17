@@ -99,3 +99,5 @@ function clearForm() {
     output.innerText = '';
     output.classList.add('hide');
   }
+  // Step 8: Event listener for the "Add Entry" button
+addEntryButton.addEventListener("click", addEntry);
